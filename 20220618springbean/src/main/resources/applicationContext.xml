@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="userdao" class="com.ldy.factory.UserDaoFactory" />
+
+        <bean id="userdaolife" class="com.ldy.dao.imp.UserDaoImp"
+              init-method="init" destroy-method="destory"/>
+
+        <bean id="userservice" class="com.ldy.service.Imp.UserServiceImp" init-method="init" destroy-method="destory">
+                <property name="userDao" ref="userdao"/>
+        </bean>
+</beans>
