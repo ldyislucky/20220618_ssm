@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userdao" class="com.ldy.dao.imp.UserDaoImp">
+        <property name="str" value="mmmmmmmmmm"/>
+        <property name="i" value="66666"/>
+    </bean>
+    <bean id="bookdao" class="com.ldy.dao.imp.BookDaoImp"/>
+
+    <bean id="service" class="com.ldy.service.Imp.ServiceImp">
+        <property name="userDao" ref="userdao"/>
+        <property name="bookDao" ref="bookdao"/>
+    </bean>
+</beans>
