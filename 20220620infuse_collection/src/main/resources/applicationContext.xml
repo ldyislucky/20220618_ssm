@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="ob" class="ob.Ob">
+        <property name="arr">
+            <array>
+                <value>7</value>
+                <value>5</value>
+                <value>6</value>
+                <value>3</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>日你妈！</value>
+                <value>陌生人</value>
+                <value>我错了</value>
+                <value>不日了</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>2.2</value>
+                <value>3.1415</value>
+                <value>5.98</value>
+                <value>4.555</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="1" value="赵"/>
+                <entry key="2" value="钱"/>
+                <entry key="3" value="孙"/>
+                <entry key="4" value="李"/>
+            </map>
+        </property>
+        <property name="pro">
+            <props>
+                <prop key="张">三</prop>
+                <prop key="李">四</prop>
+                <prop key="王">五</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

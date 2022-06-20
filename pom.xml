@@ -11,6 +11,8 @@
     <modules>
         <module>20220618springbean</module>
         <module>20220618infuse</module>
+        <module>20220618infuseconstruction</module>
+        <module>20220620infuse_collection</module>
     </modules>
 
     <properties>

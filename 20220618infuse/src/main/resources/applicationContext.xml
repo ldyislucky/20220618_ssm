@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="userdao" class="com.ldy.dao.imp.UserDaoImp">
-        <property name="str" value="mmmmmmmmmm"/>
-        <property name="i" value="66666"/>
+        <property name="str" value="mmmmmmmmm"/>
+        <property name="i" value="66666666"/>
     </bean>
     <bean id="bookdao" class="com.ldy.dao.imp.BookDaoImp"/>
 

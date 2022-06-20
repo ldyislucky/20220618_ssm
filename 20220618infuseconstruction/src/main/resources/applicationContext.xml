@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="userdao" class="ldy.dao.imp.UserDaoImp">
+        <constructor-arg name="str" value="user。。。。。。。。"/>
+        <constructor-arg name="i" value="888888"/>
+    </bean>
+
+    <bean id="bookdao" class="ldy.dao.imp.BookDaoImp"/>
+
+    <bean id="service" class="ldy.service.Imp.ServiceImp">
+        <constructor-arg name="bookDao" ref="bookdao"/>
+        <constructor-arg name="userDao" ref="userdao"/>
+    </bean>
+</beans>
