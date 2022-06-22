@@ -13,6 +13,7 @@
         <module>20220618infuse</module>
         <module>20220618infuseconstruction</module>
         <module>20220620infuse_collection</module>
+        <module>20220620anotationconfig</module>
     </modules>
 
     <properties>

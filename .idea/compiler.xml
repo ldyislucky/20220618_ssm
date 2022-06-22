@@ -10,6 +10,7 @@
         <module name="20220618springbean" />
         <module name="20220618infuseconstruction" />
         <module name="20220618infuse" />
+        <module name="20220620anotationconfig" />
       </profile>
     </annotationProcessing>
   </component>
