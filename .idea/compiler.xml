@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="20220620infuse_collection" />
+        <module name="20220702spring_mybaties" />
+        <module name="20220618infuse" />
         <module name="20220618springbean" />
         <module name="20220618infuseconstruction" />
-        <module name="20220618infuse" />
+        <module name="20220707_AOP" />
         <module name="20220620anotationconfig" />
       </profile>
     </annotationProcessing>
