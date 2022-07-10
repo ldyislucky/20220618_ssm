@@ -16,6 +16,7 @@
         <module>20220620anotationconfig</module>
         <module>20220702spring_mybaties</module>
         <module>20220707_AOP</module>
+        <module>20220709AopTest</module>
     </modules>
 
     <properties>
@@ -42,6 +43,14 @@
             <artifactId>spring-context</artifactId>
             <version>5.3.18</version>
         </dependency>
+        <!--  aspectjweaver.jar是LTW（加载时编织）所需的AspectJ库 aop用 -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.9.1</version>
+            <scope>runtime</scope>
+        </dependency>
+
         <!--
         下面这个依赖目前还不知道有啥用,代替的是mybaties中的有jdbc的拿个配置的一句话-->
         <dependency>

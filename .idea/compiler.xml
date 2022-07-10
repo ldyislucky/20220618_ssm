@@ -12,8 +12,12 @@
         <module name="20220618springbean" />
         <module name="20220618infuseconstruction" />
         <module name="20220707_AOP" />
+        <module name="20220709AopTest" />
         <module name="20220620anotationconfig" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="20220709soptest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
